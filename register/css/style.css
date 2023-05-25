@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url("../img/anhbaotri.png");
+    position: relative;
+}
+
+.logo .box {
+    height: 10%;
+    width: 20%;
+    background-color: #10507E;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    overflow: auto;
+    overflow: hidden;
+}
+
+.logo .box img {
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+.logo .box p {
+    margin-top: 0;
+    margin-bottom: 0;
+    float: right;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.form-register .box {
+    height: 100%;
+    width: 44%;
+    background-color: #29F2FF;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.form-register .box h2 {
+    text-align: center;
+    font-size: 30px;
+}
